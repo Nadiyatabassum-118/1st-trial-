@@ -14,7 +14,7 @@ Public Class Form1
 
         If password <> confirmPassword Then
             lblMessage.Text = "Passwords do not match."
-            lblMessage.ForeColor = Color.Red
+            lblMessage.ForeColor = Color.blue
             Return
         End If
 
