@@ -6,8 +6,7 @@ Public Class Form1
         Dim username As String = txtUsername.Text
         Dim password As String = txtPassword.Text
         Dim confirmPassword As String = txtConfirmPassword.Text
-
-        ' Basic validation checks
+        
         If String.IsNullOrEmpty(username) Or String.IsNullOrEmpty(password) Or String.IsNullOrEmpty(confirmPassword) Then
             lblMessage.Text = "All fields are required."
             lblMessage.ForeColor = Color.Red
@@ -20,11 +19,9 @@ Public Class Form1
             Return
         End If
 
-        ' If all validations pass, display success message
         lblMessage.Text = "Sign-Up Successful!"
         lblMessage.ForeColor = Color.Green
 
-        ' You can add code here to save the user credentials to a database or file
     End Sub
 
 End Class
