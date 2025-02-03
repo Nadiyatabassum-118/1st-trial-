@@ -2,7 +2,6 @@
 Public Class Form1
 
     Private Sub btnSignUp_Click(sender As Object, e As EventArgs) Handles btnSignUp.Click
-        ' Retrieve the input values
         Dim username As String = txtUsername.Text
         Dim password As String = txtPassword.Text
         Dim confirmPassword As String = txtConfirmPassword.Text
