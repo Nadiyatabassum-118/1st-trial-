@@ -19,7 +19,7 @@ Public Class Form1
         End If
 
         lblMessage.Text = "Sign-Up Successful!"
-        lblMessage.ForeColor = Color.Green
+        lblMessage.ForeColor = Color.grey
 
     End Sub
 
